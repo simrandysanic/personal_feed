@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Intelligence Brief - 2026-05-19</title>
+  <style>
+    :root {
+      --page: #efe7da;
+      --paper: #fffaf1;
+      --paper-soft: #f8efe3;
+      --ink: #24201c;
+      --muted: #7f7469;
+      --rule: #b9aa99;
+      --soft-rule: #e5d8c8;
+      --accent: #9f5d5f;
+      --accent-soft: #ead0ca;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.62;
+    }
+
+    main {
+      width: min(1040px, calc(100% - 28px));
+      margin: 22px auto;
+      background: var(--paper);
+      border: 1px solid #eadfce;
+      border-radius: 18px;
+      box-shadow: 0 22px 70px rgba(57, 42, 29, 0.10);
+      padding: 42px clamp(22px, 5vw, 58px) 58px;
+    }
+
+    .masthead {
+      border-bottom: 1px solid var(--soft-rule);
+      padding-bottom: 26px;
+      text-align: center;
+    }
+
+    .kicker {
+      margin: 0 0 6px;
+      color: var(--muted);
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: #201b18;
+      font-size: clamp(38px, 6vw, 68px);
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+    }
+
+    .summary {
+      width: min(760px, 100%);
+      margin: 28px auto 34px;
+      color: #3d332c;
+      font-size: clamp(18px, 2.4vw, 23px);
+      font-style: italic;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px 34px;
+    }
+
+    section {
+      background: linear-gradient(180deg, rgba(248, 239, 227, 0.68), rgba(255, 250, 241, 0));
+      border-top: 1px solid var(--soft-rule);
+      border-radius: 14px 14px 0 0;
+      padding-top: 14px;
+    }
+
+    section.full {
+      grid-column: 1 / -1;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: #3b332d;
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    article {
+      border-top: 1px solid var(--soft-rule);
+      padding: 14px 0;
+    }
+
+    article:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    h3 {
+      margin: 0 0 6px;
+      color: #241f1b;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.24;
+    }
+
+    a {
+      color: var(--ink);
+      text-decoration-color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .summary-text {
+      margin: 0 0 8px;
+      color: #4b4038;
+      font-size: 14.5px;
+    }
+
+    .tagline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      color: var(--muted);
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .importance {
+      background: var(--accent-soft);
+      border-radius: 999px;
+      color: #69383b;
+      font-weight: 700;
+      padding: 2px 7px;
+    }
+
+    .horizon {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .horizon-card {
+      background: var(--paper-soft);
+      border: 1px solid var(--soft-rule);
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .label {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .reason {
+      margin: 8px 0 0;
+      color: #4b4038;
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        width: min(100% - 14px, 1040px);
+        margin: 7px auto;
+        border-radius: 14px;
+        padding: 28px 18px 42px;
+      }
+
+      .grid,
+      .horizon {
+        grid-template-columns: 1fr;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <p class="kicker">Simran Intelligence OS</p>
+      <h1>Daily Brief</h1>
+      <p class="meta">2026-05-19 · Under 10 minutes · Signal over noise</p>
+    </header>
+
+    <p class="summary">Today&#x27;s highest-signal items cluster around AI/ML, World Essentials.</p>
+
+    <div class="grid">
+      <section>
+  <h2>World Essentials</h2>
+  <article>
+  <h3><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPSF9rZVdjR0RKS2w2VnI2M2dWWXZQQ21vck5sX1BRSGs0UVc0YWpTbXEzUEdXVGN6dmRLaTRMQlBERENZQTlUZnl5ZFVxLUNmd0N6dzk0bWlmaDlmcFlER0FDeFhWRDBUV29ONXBVb0xZblZIWE5VcW04Y3FMdGZUY1dHY3NVa2lzLWRyVGhHSUwwMElGQUFJLTEzTGtaeGlheUlqMjQtNTVwOHBzTjNOX2RfcF9reVFuU2FiSmVLcFRGbGRRZmk5bDdWdw?oc=5">Iran says peace proposal includes reparations for war damage, US troop withdrawal - Reuters</a></h3>
+  <p class="summary-text">Iran says peace proposal includes reparations for war damage, US troop withdrawal Reuters</p>
+  <div class="tagline"><span class="importance">Critical</span><span>Reuters World</span></div>
+</article>
+<article>
+  <h3><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjIxd053dWI2cFRTQVF0TUZFaFFTWjFrdGJhMUxUR3hNc2pnbVc0Ymx2am5iV2duVEtGTExUT2ZMUzE5NUVNMGpZMGhJcERTNjZvLXMxRGF5aXVZSmRGVkl4elFUWmNsYzFhQkI5OGtqejlvZGc0Z204TjZTSjF0X3lzQzI1aHExNTJMdWdyMlRvd25GUGdVMDZuUzA4WW5VZ3RsWjhXbHE3emVfT29Xb056YXRoMUh4TloxV0d1TDdoYWxGb3d0dg?oc=5">&#x27;I saw bad stuff&#x27;, says 9-year-old who huddled in closet during California mosque attack - Reuters</a></h3>
+  <p class="summary-text">&#x27;I saw bad stuff&#x27;, says 9-year-old who huddled in closet during California mosque attack Reuters</p>
+  <div class="tagline"><span class="importance">Critical</span><span>Reuters World</span></div>
+</article>
+<article>
+  <h3><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHBXbmJ3ZkFuaFFBd3hMZm11UEp5cURQbkNIbk1yZ1RVR0EyMjZ4a2pnVDViOHZwVGJhMGtnM3NaZjVpX20tR3VzNzREUTlHZnRidXFxRWpUamdOT19uUDhJOXI0UXhJWk8tMC10WHRSN29hZE1fTkc0bnhDY1hGT2Y4STNvQzd2UG1QUGM4M3luUWdnQjAzMkhEZkFBLTdxUExxVkk5UTVrUXlMNVNlbHlUSzBmNG1ESElmOFE3N2hnaHN0?oc=5">Exclusive: India to monitor Boeing fuel-switch test tied to Air India London incident, documents show - Reuters</a></h3>
+  <p class="summary-text">Exclusive: India to monitor Boeing fuel-switch test tied to Air India London incident, documents show Reuters</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Reuters World</span></div>
+</article>
+<article>
+  <h3><a href="https://www.bbc.com/news/articles/c4g8kpkjkl0o?at_medium=RSS&amp;at_campaign=rss">What really holds China and Russia together</a></h3>
+  <p class="summary-text">The relationship endures despite a power imbalance, with both sides recognising that it is too important to fail.</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>BBC World</span></div>
+</article>
+<article>
+  <h3><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxONFpDZjE1Q04tQlhnZmlGTFl3M0pYeXdwTWxYWVN0NjMydHg2UnpTNXI1aDBxUXk5dUtkTEc0RjRNZ3NwZTExc001aVprd0ROcllkOU9mNDZUWGxadlhUNHNKSmNseTdtRFUxbUhJN1NrcVh3OGVMT0xOdTBsR2h5anBrOGpPNVJMN0NJZXAwQTY2eFQzRGRuUDFiTy1mM3RlLUJqMEVTT0tOcHdtVWlVYzhNZXVNRHc?oc=5">Risks of direct Russia-NATO clash are increasing, senior Russian diplomat says - Reuters</a></h3>
+  <p class="summary-text">Risks of direct Russia-NATO clash are increasing, senior Russian diplomat says Reuters</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Reuters World</span></div>
+</article>
+</section>
+<section>
+  <h2>India</h2>
+  <article>
+  <h3><a href="https://www.thehindu.com/news/national/tamil-nadu/will-remain-committed-to-tamil-nadus-two-language-policy-in-schools-tvk-minister-rajmohan/article70997615.ece">Will remain committed to Tamil Nadu’s two-language policy in schools: TVK Minister Rajmohan</a></h3>
+  <p class="summary-text">Mr.</p>
+  <div class="tagline"><span class="importance">Important</span><span>The Hindu</span></div>
+</article>
+<article>
+  <h3><a href="https://www.thehindu.com/sci-tech/science/india-still-short-on-expertise-tools-to-manage-fungal-health-burden/article70987958.ece">India still short on expertise, tools to manage fungal health burden</a></h3>
+  <p class="summary-text">The good news is researchers in India are working to identify priority fungal pathogens circulating within its borders, both including and beyond a list of species the WHO released in 2022.</p>
+  <div class="tagline"><span class="importance">Important</span><span>The Hindu</span></div>
+</article>
+<article>
+  <h3><a href="https://www.thehindu.com/news/cities/Hyderabad/women-led-drone-patrol-foils-theft-arrests-repeat-offender-at-hyderabads-yakutpura-station/article70997688.ece">Women-led drone patrol foils theft; arrests repeat offender at Yakutpura railway station</a></h3>
+  <p class="summary-text">Since the launch of the ‘Pink Patrol’ last month, RPF has registered 388 cases related to unauthorised entry into ladies’ coaches, along with 69 cases against trespassers and suspicious individuals on railway premises.</p>
+  <div class="tagline"><span class="importance">Important</span><span>The Hindu</span></div>
+</article>
+</section>
+<section>
+  <h2>Bhutan</h2>
+  <article>
+  <h3><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNZGVwYVVuVjZiN1dRckc2WjB4bjN4UEFPekJTLVZ0WmgyUUYwNk5CSmNlUGRtTlFlM0NwSzFLSEFsU0x5T3JSOXdzTFpjNU9pQWJjd25GSy1JQi1NRkJBTE9laFNHR3dOS3VxRnVOdER0RUJKakZmNlZTS3VWZk9PVmtEYVZjNEJMcHRoeWVzOWFOaUU?oc=5">Arbitration seen as crucial tool to attract FDI, says BADRC - Kuensel Online</a></h3>
+  <p class="summary-text">Arbitration seen as crucial tool to attract FDI, says BADRC Kuensel Online</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Kuensel</span></div>
+</article>
+</section>
+<section>
+  <h2>AI/ML</h2>
+  <article>
+  <h3><a href="https://openai.com/index/databricks">Databricks brings GPT-5.5 to enterprise agent workflows</a></h3>
+  <p class="summary-text">Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>OpenAI Blog</span></div>
+</article>
+<article>
+  <h3><a href="https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/">What to expect from Google this week</a></h3>
+  <p class="summary-text">This story originally appeared in The Algorithm, our weekly newsletter on AI.</p>
+  <div class="tagline"><span class="importance">Important</span><span>MIT Technology Review AI</span></div>
+</article>
+<article>
+  <h3><a href="https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/">Establishing AI and data sovereignty in the age of autonomous systems</a></h3>
+  <p class="summary-text">When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and...</p>
+  <div class="tagline"><span class="importance">Important</span><span>MIT Technology Review AI</span></div>
+</article>
+<article>
+  <h3><a href="https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/">The shock of seeing your body used in deepfake porn</a></h3>
+  <p class="summary-text">When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program.</p>
+  <div class="tagline"><span class="importance">Important</span><span>MIT Technology Review AI</span></div>
+</article>
+<article>
+  <h3><a href="https://huggingface.co/blog/amazon/foundation-model-building-blocks">Building Blocks for Foundation Model Training and Inference on AWS</a></h3>
+  <p class="summary-text">No RSS summary provided.</p>
+  <div class="tagline"><span class="importance">Important</span><span>Hugging Face Blog</span></div>
+</article>
+</section>
+<section>
+  <h2>Psychology</h2>
+  <article>
+  <h3><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTI2ckFPeXQycDdWdlpRYm5iU3ZGODFhTUJIX2wyRllfbHhtbG93MkhManNEVUpwTlZiQzBoTVo3OTgtRklubzFKNmlRQUN2UFBkdU5vOGlIcmx0NVJadEswT1E3a2NnVjlKZUZDSkk4V1AzV0FfMTJlQ1VtdXVMbjBrU2NxTU9reC1DZXVSX1RLSnhEZ0gzNEpscE8xZEnSAaQBQVVfeXFMUHgxR0xxeWNUZmlZeWRUMGdpdHJUd2lWSllMRVFzR2I1cW0zbi1DaVoxV2R2RGR6LVhBSVhHOTVPMmNma0RkX1E0TWszZDFMbS1aQkk2T0FObHVWdGxpZFlKbVRpSHNST0txdkhLbXMzbTcyV1FCNk4yWjdMRzV5ZFlia09rSTYwZmN3Ym0zNlpPMVQ2V3YyaG02ZVJJTUJjT0xmLTk?oc=5">Three things that couples stop doing in their relationship before drifting apart. - Psychology Today</a></h3>
+  <p class="summary-text">Three things that couples stop doing in their relationship before drifting apart.</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Psychology Today</span></div>
+</article>
+<article>
+  <h3><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVk0alBpSFZkMFNTTUNnT29FS2Q0d3ZGcFVUQXRFSnRlQlpURjNtSFJsbnRhY1IzS0pZQXRvQ3V6S09POUhHX1QyTndaQ0VGV1RFSzJGckZBSmtMMDk4MVAzVnVma0dvNTRHZWpRcFhQSlc3aGpSWmtGS2plY2JWLV9LSVp0eGxUcEktSE16RzAtZWkz0gGaAUFVX3lxTE43VnRLTDVycGd4YnVpam5Nby05MVpwanc2UzFrNGtPSWFJRzY3b3pvT3djamJkX2tOQnpWYnZvVUpKYUVuZXNXeHJad3ZZdldGYXpIZTByUWtPQUh0eUNKYnM2ZlhJdFRVTnVNUkpuVnNSODdXZUx5eHJHN0Y5WEE4dEJXSGFKcUh2WFFsQnNmLTYyZ1lzNEZqbXc?oc=5">Our attention spans are shrinking, but we can do something about it. - Psychology Today</a></h3>
+  <p class="summary-text">Our attention spans are shrinking, but we can do something about it.</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Psychology Today</span></div>
+</article>
+<article>
+  <h3><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQWRNOUNCM2s3TFdPbzFBNmZqT09CSmlRS3RzQV9XbFNYVmVncFVmTjJrWkJBQWVLb3BieTE3VGNiOVFNZHhfLUFSeEVfVVFybVpKSkVsWnF3WHd6QXpaTnhLNXVOUXhIaWhzb3QwUGV1end5WnF2N29aRE82YzcyREdoWi1qSzBrbGozWEM4VlU1U2pSeG5wMlpBZzFHdTZ5eUxlcTF4Q3RkbVBRaUNuLWJvazNoUmYtSVhEcUE5ZmhnbUXSAcgBQVVfeXFMTm9DaF9xb2pnZFVzN29RcTFCcEloeWZNRHp2aUU3X1Mtelc0QUtXdGRtakdmR093d2ttQ0lHWFpLOVh3S1V2WjZINFlSX2lKNWloYlY3ZTZIQ2xMbVBldXF1OVlzZmlNS1hBNVk5R05ERVdsWU4zbGRjSFFHdmRGVVFTWHA1azNVMEU5ZFZWVU9zREF4X0phYm05T3FEQUZ5SXRXazBJeEphblBTT3V6LVJRRXdDOUFFdHY2QWJtZlFJM19tTU5hMUc?oc=5">She wanted the commitment more than he did. So why does she want to leave? - Psychology Today</a></h3>
+  <p class="summary-text">She wanted the commitment more than he did.</p>
+  <div class="tagline"><span class="importance">Interesting</span><span>Psychology Today</span></div>
+</article>
+</section>
+<section>
+  <h2>Discovery Feed</h2>
+  <article>
+  <h3><a href="https://www.sciencedaily.com/releases/2026/05/260518041345.htm">NASA’s powerful Roman Space Telescope is about to transform astronomy</a></h3>
+  <p class="summary-text">NASA’s Nancy Grace Roman Space Telescope is now aiming for an earlier launch in September 2026.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>ScienceDaily</span></div>
+</article>
+<article>
+  <h3><a href="https://www.sciencedaily.com/releases/2026/05/260518041341.htm">Forget electrons, this breakthrough uses light-matter particles to power AI</a></h3>
+  <p class="summary-text">Researchers at Penn have created a hybrid light-matter particle that could dramatically speed up AI computing while using far less energy.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>ScienceDaily</span></div>
+</article>
+<article>
+  <h3><a href="https://www.sciencedaily.com/releases/2026/05/260518041417.htm">Antarctic glacier collapses at record speed as Hektoria retreats 15 miles in just 15 months</a></h3>
+  <p class="summary-text">Antarctica’s Hektoria Glacier collapsed with shocking speed, retreating 15 miles in only 15 months and setting a modern record for grounded ice loss.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>ScienceDaily</span></div>
+</article>
+</section>
+      <section class="full">
+  <h2>Emerging Signals</h2>
+  <article>
+  <h3>Databricks brings GPT-5.5 to enterprise agent workflows</h3>
+  <p class="summary-text">Track whether follow-up coverage, policy movement, or market adoption confirms it.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>Emerging signal</span></div>
+</article>
+<article>
+  <h3>NASA’s powerful Roman Space Telescope is about to transform astronomy</h3>
+  <p class="summary-text">Track whether follow-up coverage, policy movement, or market adoption confirms it.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>Emerging signal</span></div>
+</article>
+<article>
+  <h3>Forget electrons, this breakthrough uses light-matter particles to power AI</h3>
+  <p class="summary-text">Track whether follow-up coverage, policy movement, or market adoption confirms it.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>Emerging signal</span></div>
+</article>
+</section>
+      <section class="full">
+  <h2>Horizon Expander</h2>
+  <div class="horizon"><div class="horizon-card">
+  <p class="label">Quick read</p>
+  <h3><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPSF9rZVdjR0RKS2w2VnI2M2dWWXZQQ21vck5sX1BRSGs0UVc0YWpTbXEzUEdXVGN6dmRLaTRMQlBERENZQTlUZnl5ZFVxLUNmd0N6dzk0bWlmaDlmcFlER0FDeFhWRDBUV29ONXBVb0xZblZIWE5VcW04Y3FMdGZUY1dHY3NVa2lzLWRyVGhHSUwwMElGQUFJLTEzTGtaeGlheUlqMjQtNTVwOHBzTjNOX2RfcF9reVFuU2FiSmVLcFRGbGRRZmk5bDdWdw?oc=5">Iran says peace proposal includes reparations for war damage, US troop withdrawal - Reuters</a></h3>
+  <div class="tagline"><span>3-5 min</span></div>
+  <p class="reason">A concise way to catch a high-signal World Essentials development.</p>
+</div>
+<div class="horizon-card">
+  <p class="label">Deep read</p>
+  <h3><a href="https://openai.com/index/databricks">Databricks brings GPT-5.5 to enterprise agent workflows</a></h3>
+  <div class="tagline"><span>10-20 min</span></div>
+  <p class="reason">Useful for understanding second-order implications in AI/ML.</p>
+</div>
+<div class="horizon-card">
+  <p class="label">Wildcard</p>
+  <h3><a href="https://www.sciencedaily.com/releases/2026/05/260518041345.htm">NASA’s powerful Roman Space Telescope is about to transform astronomy</a></h3>
+  <div class="tagline"><span>3 min</span></div>
+  <p class="reason">A useful stretch beyond the usual core feed.</p>
+</div></div>
+</section>
+      <section class="full">
+  <h2>Curiosity Capsule</h2>
+  <article>
+  <h3><a href="https://www.sciencedaily.com/releases/2026/05/260518041345.htm">NASA’s powerful Roman Space Telescope is about to transform astronomy</a></h3>
+  <p class="summary-text">NASA’s Nancy Grace Roman Space Telescope is now aiming for an earlier launch in September 2026.</p>
+  <div class="tagline"><span class="importance">Critical</span><span>ScienceDaily</span></div>
+</article>
+</section>
+    </div>
+  </main>
+</body>
+</html>

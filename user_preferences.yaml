@@ -1,0 +1,15 @@
+countries:
+  - India
+  - Bhutan
+
+interests:
+  - AI
+  - psychology
+  - neuroscience
+  - discoveries
+
+avoid:
+  - celebrity news
+  - sports
+
+reading_mode: normal
